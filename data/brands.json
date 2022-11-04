@@ -1,0 +1,22 @@
+[
+    {
+        "brandId":1,
+        "name":"Amado"
+    },
+    {
+        "brandId":2,
+        "name":"Ikea"
+    },
+    {
+        "brandId":3,
+        "name":"Furniture Inc"
+    },
+    {
+        "brandId":4,
+        "name":"The factory"
+    },
+    {
+        "brandId":5,
+        "name":"Artdeco"
+    }
+]

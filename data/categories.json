@@ -1,0 +1,22 @@
+[
+    {
+        "categId":1,
+        "name":"Chairs"
+    },
+    {
+        "categId":2,
+        "name":"Lamps"
+    },
+    {
+        "categId":3,
+        "name":"Furniture"
+    },
+    {
+        "categId":4,
+        "name":"Home Deco"
+    },
+    {
+        "categId":5,
+        "name":"Tables"
+    }
+]

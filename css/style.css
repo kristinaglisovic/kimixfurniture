@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/*index*/
+
+.products-catagories-area {
+  background-image: url(../img/prodPoz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+#slideshow {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 600px;
+  height: 400px;
+  box-shadow: 0px 0px 5px #fbb710;
+  filter: blur(1px);
+  overflow: hidden;
+}
+
+#slideshow2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 600px;
+  height: 400px;
+  box-shadow: 0px 0px 5px #fbb710;
+  overflow: hidden;
+}
+
+.holder {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text {
+  font-weight: 800;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 1px 2px black;
+}
+
+.tekstbelo {
+  color: white !important;
+  margin: 10px;
+}
+
+.oautoru {
+  background-color: black;
+  padding: 50px 0px;
+}
+
+span {
+  margin-bottom: 10px;
+}
+
+.dugme {
+  box-shadow: 0px 1px 5px #666;
+}
+
+.dugme a {
+  text-shadow: 0px 1px 2px black;
+}
+
+.cart-nav {
+  padding-top: 20px !important;
+}
+
+.futerfont{
+  font-size: 15px;
+  color: gray !important;
+}
+
+
+
+/*responsive*/
+
+@media (max-width: 900px) {
+  #slideshow, #slideshow2 {
+    width: 470px;
+  }
+  .text {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 766px) {
+  .products-catagories-area {
+    height: 100vh;
+  }
+  #slideshow, #slideshow2 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  #slideshow, #slideshow2 {
+    width: 87%;
+  }
+  .text {
+    font-size: 3rem;
+  }
+  .amado-btn {
+    min-width: 130px !important;
+  }
+}
